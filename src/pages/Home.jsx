@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { getPopularMovies, searchMovies } from "../services/api";
 
 function Home() {
+
     
     const [searchQuery, setSearchQuery] = useState('')
     const [movies, setMovies] = useState([]);
